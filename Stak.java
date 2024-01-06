@@ -5,7 +5,7 @@ int top;
 Stak(int size){
 this.size=size;
 this.arr = new int[size];
-this.top = 1;
+this.top = -1;
 }
 public boolean isEmpty(){
 return (top==-1);

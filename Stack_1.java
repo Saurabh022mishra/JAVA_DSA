@@ -21,7 +21,7 @@ return true;
 }
 
 int pop(){
-if(top<0){
+if(isEmpty()){
 System.out.println("Stack underflow");
 return 0;
 }else{
@@ -30,7 +30,7 @@ return x;
 }
 }
 int peek(){
-if(top < 0){
+if(isEmpty()){
 System.out.println("Stack underflow");
 return 0;
 }
@@ -41,6 +41,7 @@ return x;
 }
 public static void main(String[]args){
 Stack_1 s = new Stack_1();
+s.pop();
 s.push(10);
 s.push(20);
 s.push(30);

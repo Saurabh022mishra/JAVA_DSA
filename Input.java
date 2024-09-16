@@ -11,7 +11,7 @@ public class Input {
         System.out.println("Your name is "+name);
         System.out.println("Your age is "+age);
         System.out.println("Your salary is "+salary);
-        
+        sc.close();
     }
     
 }

@@ -18,6 +18,7 @@ public class pattan_2 {
             }
             System.out.println("5");
         }
+        sc.close();
     }
     
 }
